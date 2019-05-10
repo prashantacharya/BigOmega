@@ -7,6 +7,7 @@ module.exports = {
 				path: `${__dirname}/contents`
 			}
 		},
+		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sharp',
 		{
 			resolve: 'gatsby-transformer-remark',

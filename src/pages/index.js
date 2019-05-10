@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout'
 import { graphql, useStaticQuery, Link } from 'gatsby'
+import Head from '../components/head'
 
 const IndexPage = () => {
 	const data = useStaticQuery(graphql`
@@ -30,6 +31,7 @@ const IndexPage = () => {
 
 	return (
 		<Layout>
+			<Head title="Home"/>
 			{
 				data.allMarkdownRemark.edges.map(edge => {
 					let styleIndex = data.allMarkdownRemark.edges.indexOf(edge)

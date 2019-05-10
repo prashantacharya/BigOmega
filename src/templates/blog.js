@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import Head from '../components/head'
 
 export const query = graphql`
 	query($slug: String!) {
@@ -9,6 +10,7 @@ export const query = graphql`
 			frontmatter {
 				title
 				date(formatString: "Do MMMM, YYYY")
+				keywords
 			}
 			html
 			timeToRead
@@ -19,6 +21,10 @@ export const query = graphql`
 const Blog = (props) => {
 		return (
 			<Layout>
+				<Head 
+					title={props.data.markdownRemark.frontmatter.title}
+					keywords={props.data.markdownRemark.frontmatter.keywords}
+				/>
 				<article className="blog">
 					<h1>{props.data.markdownRemark.frontmatter.title}</h1>
 					<p>
