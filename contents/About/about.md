@@ -21,3 +21,6 @@ I am going for TechTrix Hackathon 2019, which is happening tomorrow so I will wr
 <br><br>
 ### My next targets for the website
 I plan to improvise the SEO of this website and also convert it to a progressive web application so that you can save this website as an app and read contents ofline.
+
+
+**I want to extend this blog further sometime soon. I will share it in all my social media platforms to keep you updated for it.**
