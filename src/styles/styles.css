@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron:700|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700|Ubuntu|Montserrat');
 @import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
 * {
 	margin: 0;
@@ -7,17 +7,15 @@
 
 html body {
 	background: #282a33;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #e4e3e3;
 	line-height: 1.5;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Orbitron', sans-serif;
 	font-weight: 300;
 }
-
 
 .container {
 	margin: 0 auto;
@@ -98,7 +96,7 @@ footer {
 }
 
 .article-red{
-	background: linear-gradient(to top, #ff73b0,#f16063);
+	background: linear-gradient(to top, #9e3a65,#ee4e51);
 }
 
 .article-blue{
@@ -131,6 +129,10 @@ footer {
 	margin: 2rem 0;
 }
 
+.blog h1, h2, h3, h4, h5, h6{
+	margin: 10px 0px;
+}
+
 .blog h1{
 	font-size: 2rem;
 }
@@ -153,10 +155,45 @@ footer {
 	text-underline-position: bottom; 
 }
 
-.blog p{
-	letter-spacing: 1px;
-}
-
 .blog-content{
 	margin-top: 2rem;
+}
+
+.blog p{
+	margin: 10px 0px;
+	font-size: 1.1rem;
+}
+
+.blog img{
+	margin: 15px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+	h1, .blog h1 {
+		font-size: 1.7rem;
+	}
+
+	.text p{
+		font-size: 1.1rem;
+	}
+
+	h3, .blog h3 {
+		font-size: 1.3rem;
+	}
+
+	.list-blogs .subtitle{
+		font-size: 1rem;
+	}
+
+	.blog h1, h2, h3, h4, h5, h6{
+		margin: 5px 0px;
+	}
+	
+	.list-blogs h2{
+		font-size: 1.2rem;
+	}
+	.blog p{
+		margin: 15px 0px;
+		font-size: 1rem;
+	}
 }

@@ -8,6 +8,7 @@ const Head = ({title, keywords}) => {
 			<title>{`${title} | BigOmega`}</title>
 			<meta name="description" content="A personal blog website"/>
 			<meta name="author" content="Prashant Acharya" />
+			<meta name="keywords" content={`${keywords}`}/>
 		</Helmet>
 	)
 }
