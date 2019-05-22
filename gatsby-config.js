@@ -7,6 +7,22 @@ module.exports = {
 				path: `${__dirname}/contents`
 			}
 		},
+		{
+			resolve: 'gatsby-plugin-favicons',
+			options: {
+				logo: './src/static.favicon.png',
+				icons: {
+					android: true,
+					appleIcon: true,
+					appleStartup: true,
+					coast: false,
+					favicons: true,
+					firefox: true,
+					yandex: false,
+					windows: false
+				}
+			}
+		},
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sharp',
 		{
