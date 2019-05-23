@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+hr {
+	margin: 10px 0px;
+}
+
 .container {
 	margin: 0 auto;
 	max-width: 50rem;
