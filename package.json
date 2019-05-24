@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "bigomega",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "This is a personal blog website by Prashant Acharya",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -9,8 +9,7 @@
     "develop": "env-cmd .env gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "env-cmd": "^8.0.2",
@@ -27,15 +26,5 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1"
-  },
-  "devDependencies": {
-    "prettier": "^1.17.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
