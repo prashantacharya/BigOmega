@@ -62,6 +62,26 @@ export default Counter
 
 We are setting count as 0 by hard coding the value. Now we will explore about how to make it a state and act according.
 
+Now let's import the `Counter` component in the `app.js` file and use it in the app component.
+
+```jsx
+import React from 'react'
+import './App.css'
+import Counter from './Counter' // highlight-line
+
+function App() {
+  return (
+    <div className="App">
+     // highlight-next-line
+      <Counter />
+    </div>
+  );
+}
+
+export default App
+```
+
+
 In order to use the ` useState ` hook, we have to import it from react. To do that we can simply add the import in the first line of the ` Counter.js ` file.
 
 ```jsx
