@@ -45,7 +45,7 @@ The other problem CSIT faces is the colleges that teach CSIT is they teach you t
 I don't mean to disrespect any teachers. I am trying to express the reality. I would also like to thank those teachers who are working really hard to teach computer science as more than syllabus. 
 
 ### University and the entire Country
-There is simply no enough resources available for computer science in Nepal. Suppose there's a student who wants to do research in the field of IoT in Nepal. Where does he get the support from and is there even a library where he can continue his work?
+There is simply not enough resource available for computer science in Nepal. Suppose there's a student who wants to do research in the field of IoT in Nepal. Where does he get the support from and is there even a lab where he can continue his work?
 
 This is too much to expect from the university. There is too much carelessness going on in the case of exams. Sometimes the question are out of syllabus. The checking of exam papers is so poor. There has been a case in which someone I know has got more scores than he attempted.
 
@@ -55,7 +55,20 @@ The number of companies in Nepal who are willing to take a batch of interns and 
 ### Situation outside the Kathmandu Valley
 In Nepal, everything is centralized inside the Kathmandu valley. The students outside of Kathmandu don't even have proper internet connection and enough lab facilites to complete their experiments specified in the syllabus. 
 
-I interacted with a teacher of mine who worked as the coordinator of a CSIT college outside of the Kathmandu valley and he says the students have to limit themselves with a lot of knowledge and exposure outside the valley. They don't even have teachers in the region to teach them skills outside of the syllabus so for internship they have to come to the capital for **training, not internship** in their final semester. 
+I interacted with a teacher of mine who worked as the coordinator of a CSIT college outside of the Kathmandu valley and he says the students have to limit themselves with a lot of knowledge and exposure outside the valley. They don't even have teachers in the region to teach them skills outside of the syllabus so for internship they have to come to the capital for **training, not internship** in their final semester.
+
+## The Positives About CS in Nepal
+I don't want to discourage anyone by saying all the negatives about the course. There are positive aspects too. I would like to talk about them briefly.
+
+
+### Positives in CSIT
+CSIT course is an affordable course with a lot of prospects. In the past, CSIT was really unmanaged but now it has better management. The course now has been updated to meet the world demands.
+
+### Digital Revolution
+Nepal is going through a digital revolution. In the near future, there are going to be a lot of governmental and private jobs in the field of Computer Science in Nepal. There are a lot of possibilites and it's going to grow in the future.
+
+### Unlimited scope outside the country
+The best thing about computer science is it is not centralized so you can really fit in anywhere in the world if you have skills. Programming language is same everywhere, data structures are not going to change & the algorithms too.
 
 ## Conclusion
-A lot of what I said above might be discouraging to people but that is how the reality looks like. I cannot avoid it even if I try to because the nation is moving towards a digital revolution and there is a huge requirement of qualified manpower in the nation. Financial stability is a must so choosing computer science for it is not wrong but your passion determines success. Financial security is also highly dependent on your willingness to take risk and provide time to increase the knowledge you have.
+A lot of what I said above might be discouraging to people but that is how the reality looks like. I cannot avoid it even if I try to because the nation is moving towards a digital revolution and there is a huge requirement of qualified manpower in the nation and also outside of the nation. Financial stability is a must so choosing computer science for it is not wrong as well. But your passion determines success. Financial security is highly dependent on your willingness to take risk to dedicate time to learn and flourish your skills.
