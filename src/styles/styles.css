@@ -24,7 +24,7 @@ hr {
 blockquote {
     padding: 10px 20px;
     border-left: 2px solid #f16063;
-    margin: 30px 10px;
+    margin: 30px 0px;
     background: rgba(255,255,255,0.1);
 }
 
@@ -150,11 +150,11 @@ footer {
 }
 
 .blog h2{
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 }
 
 .blog h3{
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 
 .blog a{
@@ -177,7 +177,8 @@ footer {
 }
 
 .blog img{
-	margin: 15px 0px;
+	margin: 15px auto;
+	display: block;
 }
 
 @media only screen and (max-width: 500px) {

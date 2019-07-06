@@ -5,7 +5,7 @@ date: '2019-07-03'
 keywords: "CSIT, Computer Science, Nepal, CSIT"
 ---
 
-Computer Science is one of the most popular career path for students in this generation. Factors like the scope of it and the pay rate in the field excites many. The case is not different in Nepal and this has few problems. In this blog, I will try to provide my opinion and statistics about Computer Science in the context of Nepal.
+Computer Science is one of the most popular career path for students in this generation. Factors like the scope of it and the pay rate in the field excites many. The case is not different in Nepal and this has few problems. In this blog, I will try to provide my opinion, the problems and not the statistics about Computer Science in the context of Nepal.
 
 I study Computer Science and Information Technology at Sagarmatha College of Science and Technology which is affiliated to Tribhuvan University. At the time of writing, I am in the 4th semester. 
 
@@ -29,3 +29,33 @@ Nepal is a small country with 10 Universities in the entire country which I didn
 The benefits of Computer Science in Nepal is not the same as it is in other countries. No one is sane here. Students, teachers, university, college and companies contribute in this equally and that frustrates me which can actually be considered as the point of this article to be honest.
 
 ### CSIT, A Safe Landing
+Go ahead and try to make an estimation about how many students who enroll in CSIT have enrolled in CSIT because they are really passionate about Computers and the Science revolves around it. Do the numbers frighten you? It does to me. Let me explain with context and the result.
+
+Currently, there's a large population of students who choose to study CSIT if they don't get enough scores to qualify for the scolarship in MBBS, Nursing (and similar faculties) or Engineering entrance. I don't want to blame those students because the faculties like MBBS, Agriculture, Nursing etc have unaffordable fee strcuture for a middle class family from Nepal to even think it as a possibility. CSIT has been a place for the safest landing for this group of people because of job security and pay rate. I think Computer Science will never be a great field in Nepal until people stop treating it as a faculty to join when there's no other option left. However, I have also heard stories from people who had never even seen a computer but join computer science for their undergraduate degree and have reached in a successful position. Those people, in their position are not in that situation because of their past. There was a factor that determined their success and it is passion. They were able to bridge the void that existed between the knowledge they had and the knowledge they wanted to acquire. There is a possibility to have a frutful career in Computer Science even as an alternative if you make it your passion after you join it.
+
+>Like Computers, Success in computer science is determined by a binary and some exceptions. You're either passionate about it or you're not and the exception is you might simply get lucky and not everyone is lucky.
+
+Due to this reason, CSIT has been filled with students who are not passionate. How can someone excel in a field in which he doesn't feel passionate about?
+
+### Colleges
+The other problem CSIT faces is the colleges that teach CSIT is they teach you the syllabus not the essense of the course. Not all but most of the teachers are too lazy to even get them updated with latest available technologies. Don't you believe me? Ask your C++ teacher the current stable version of C++. You'll get the answer. 😉
+
+![No Idea](https://media.giphy.com/media/bPTXcJiIzzWz6/giphy.gif)
+
+I don't mean to disrespect any teachers. I am trying to express the reality. I would also like to thank those teachers who are working really hard to teach computer science as more than syllabus. 
+
+### University and the entire Country
+There is simply no enough resources available for computer science in Nepal. Suppose there's a student who wants to do research in the field of IoT in Nepal. Where does he get the support from and is there even a library where he can continue his work?
+
+This is too much to expect from the university. There is too much carelessness going on in the case of exams. Sometimes the question are out of syllabus. The checking of exam papers is so poor. There has been a case in which someone I know has got more scores than he attempted.
+
+### The Companies
+The number of companies in Nepal who are willing to take a batch of interns and be willing to provide them industry level skills can be counted in fingers. There are companies in Nepal who make interns do client projects with no assistance and pay nothing when they are making money out of it. To be able to fit in this kind of market the only thing a student can try to do is teach himself the required skills to fit in the market.
+
+### Situation outside the Kathmandu Valley
+In Nepal, everything is centralized inside the Kathmandu valley. The students outside of Kathmandu don't even have proper internet connection and enough lab facilites to complete their experiments specified in the syllabus. 
+
+I interacted with a teacher of mine who worked as the coordinator of a CSIT college outside of the Kathmandu valley and he says the students have to limit themselves with a lot of knowledge and exposure outside the valley. They don't even have teachers in the region to teach them skills outside of the syllabus so for internship they have to come to the capital for **training, not internship** in their final semester. 
+
+## Conclusion
+A lot of what I said above might be discouraging to people but that is how the reality looks like. I cannot avoid it even if I try to because the nation is moving towards a digital revolution and there is a huge requirement of qualified manpower in the nation. Financial stability is a must so choosing computer science for it is not wrong but your passion determines success. Financial security is also highly dependent on your willingness to take risk and provide time to increase the knowledge you have.
