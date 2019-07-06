@@ -21,6 +21,13 @@ hr {
 	margin: 10px 0px;
 }
 
+blockquote {
+    padding: 10px 20px;
+    border-left: 2px solid #f16063;
+    margin: 30px 10px;
+    background: rgba(255,255,255,0.1);
+}
+
 .container {
 	margin: 0 auto;
 	max-width: 50rem;
