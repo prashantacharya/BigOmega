@@ -38,7 +38,7 @@ Currently, there's a large population of students who choose to study CSIT if th
 Due to this reason, CSIT has been filled with students who are not passionate. How can someone excel in a field in which he doesn't feel passionate about?
 
 ### Colleges
-The other problem CSIT faces is the colleges that teach CSIT is they teach you the syllabus not the essense of the course. Not all but most of the teachers are too lazy to even get them updated with latest available technologies. Don't you believe me? Ask your C++ teacher the current stable version of C++. You'll get the answer. 😉
+The other problem CSIT faces is the colleges that teach CSIT teach you the syllabus not the essense of the course. Not all but most of the teachers are too lazy to even get them updated with latest available technologies. Don't you believe me? Ask your C++ teacher the current stable version of C++. You'll get the answer. 😉
 
 ![No Idea](https://media.giphy.com/media/bPTXcJiIzzWz6/giphy.gif)
 
