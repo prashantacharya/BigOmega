@@ -27,7 +27,7 @@ const IndexPage = () => {
 		}
 	`)
 
-	const styles = ['article-red', 'article-blue', 'article-grey', 'article-orange', 'article-nepal']
+	const styles = ['article-red']
 
 	return (
 		<Layout>
