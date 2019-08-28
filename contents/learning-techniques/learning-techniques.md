@@ -15,7 +15,7 @@ In the field of technology, there is always so much to learn and explore. Most o
 
 ## Watching tutorials
 
-If you have been in a situation where you watch a tutorial then the next and then the next till you realize that you have reached tutorial hell then raise your hands. This is the problem with watching tutorial videos. You get addicted to them and when you have to try something on your own, you don't be able to because you're not trained to that mindset. I have been in similar situations and I know how frustrating that gets overtime. Nowadays, I am trying to move away from the tutorials and I don't mean I avoid them completely. I take a slightly different approach than what I have done up to the moment. So the way I make use of tutorials is to watch crash courses on youtube and jumping on a personal pet project instead of a full 20+ hours of project-based tutorial learning. I also watch videos on advanced topics on some tool through videos. I like videos from the youtube channel named <a href='https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q' target='_blank'>funfunfunction</a>. He doesn't create a tutorial but talks about concepts on JS mostly. 
+If you have been in a situation where you watch a tutorial then the next and then the next till you realize that you have reached tutorial hell then raise your hands. This is the problem with watching tutorial videos. You get addicted to them and when you have to try something on your own, you don't be able to because you're not trained to that mindset. I have been in similar situations and I know how frustrating that gets overtime. Nowadays, I am trying to move away from the tutorials and I don't mean I avoid them completely. I take a slightly different approach than what I have done up to the moment. So the way I make use of tutorials is to watch crash courses on youtube and jumping on a personal pet project instead of a full 20+ hours of project-based tutorial learning. I also watch videos on advanced topics on some tool. I like videos from the youtube channel named <a href='https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q' target='_blank'>funfunfunction</a>. He doesn't create a tutorial but talks about concepts on JS mostly. 
 
 ## Official Documentation
 
@@ -32,8 +32,11 @@ This includes site like <a href='https://freecodecamp.org' target='_blank'>FreeC
 
 ## Building Projects
 
-I have enrolled in an internship and there I was able to learn quite a lot with this approach to learn new technology. So this approach starts with a project in mind. You think of a project or a problem and then understand the application's requirement then you approach the application, feature by feature. You learn a lot with this approach but I would not really recommend it to you unless you have a mentor who could help you while you do so. 
+I have enrolled in an internship and there I was able to learn quite a lot with this approach to learn new technology. So this approach starts with a project in mind. You think of a project or a problem and then understand the application's requirement then you approach the application, feature by feature. You learn a lot with this approach but I would not really recommend it to you unless you have a mentor who could help you while you do so.
+
 If you learn with this approach then you'll learn what feature of a language/library/framework you must specialize on. You will have a project to complete and show it to people. It also helps you build your portfolio. So, if you have a mentor, this is the best approach one can take to learn new technology.
+
+I will cover more on this topic on my next blog. It will be dedicated blog for this approach.
 
 ## Conclusion
 
