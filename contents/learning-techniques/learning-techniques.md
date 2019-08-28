@@ -1,5 +1,5 @@
 ---
-title: "Learning new technology or a tool"
+title: "Techniques For Learning a New Technology Or a Tool"
 subtitle: "In this blog, I talk about different learning techniques that works best to learn a new tool or technology"
 date: '2019-08-27'
 keywords: "technology, framework, language, tool, learning, tutorials, documentation, mentor"
