@@ -1,6 +1,6 @@
 ---
 title: "Recursion"
-subtitle: "This blog explains what recursion is with an example on javascript and python"
+subtitle: "This blog explains what recursion is with an example on javascript"
 date: '2019-09-04'
 keywords: "Python, JavaScript, Recursion, Fibonacci Series"
 ---
