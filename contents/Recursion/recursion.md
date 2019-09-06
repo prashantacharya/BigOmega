@@ -31,7 +31,7 @@ function countDownFrom(n){
 So as I said, recursive function calls itself until some condition is met. They are **base case** and **recursive case**.
 
 ### Base Case
-The base case is the case when the function stops calling itself and returns some value which stops its recurring operation. For example, in the case of a countdown, when the value of the counter is set to 1, it must exit the function. To do that we can simply return without returning anything i.e. null.
+The base case is the case when the function stops calling itself and returns some value which stops its recurring operation. For example, in the case of a countdown, when the value of the counter is set to 1, it must exit the function. To do that we can simply return without returning anything i.e. null/undefined.
 
 ```js
 function countDownFrom(n){
