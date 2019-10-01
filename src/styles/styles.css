@@ -7,6 +7,10 @@
 	padding: 0;
 }
 
+a:focus {
+	outline: none;
+}
+
 html body {
 	background: #282a33;
 	font-family: 'Red Hat Display', sans-serif;
@@ -117,36 +121,6 @@ footer {
 	padding: 10px 15px;
 }
 
-.article-red {
-	/* background: linear-gradient(to top, #9e3a65,#ee4e51); */
-}
-
-/* .article-blue{
-	background: #141E30;
-	background: -webkit-linear-gradient(to right, #243B55, #141E30);
-	background: linear-gradient(to right, #243B55, #141E30);
-}
-
-.article-grey {
-	background: #bdc3c7;
-	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); 
-	background: linear-gradient(to right, #2c3e50, #bdc3c7);
-}
-
-.article-orange {
-	background: #ff7e5f;
-	background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
-	background: linear-gradient(to left, #feb47b, #ff7e5f);
-}
-
-.article-nepal{
-	background: #de6161;
-	background: -webkit-linear-gradient(to right, #4674fe, #de6161);
-	background: linear-gradient(to right, #4674fe, #de6161);
-} */
-
-/* Blog Page */
-
 .blog {
 	margin: 2rem 0;
 }
@@ -192,6 +166,59 @@ footer {
 	margin: 20px auto;
 	display: block;
 	width: 100%;
+}
+
+.mailchimp {
+	margin: 30px 0px;
+	padding: 20px;
+	border-top: 1px solid #f16063;
+	border-bottom: 1px solid #f16063;
+	border-radius: 15px;
+}
+
+.mailchimp form {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0px;
+}
+
+
+.mailchimp input {
+	margin-right: 2px;
+	flex-grow: 8;
+	padding: 10px 5px;
+	background: none;
+	border: 1px solid #f16063;
+	color: #e4e3e3;
+	border-radius: 15px;
+}
+
+.mailchimp input:focus {
+	outline: none;
+}
+
+.mailchimp button {
+	flex-grow: 1;
+	margin-left: 5px;
+	border: 1px solid #f16063;
+	border-radius: 15px;
+	background: transparent;
+	color: #f16063;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+}
+
+.mailchimp button:hover, .mailchimp button:focus {
+	outline: none;
+	cursor: pointer;
+	background: #f16063;
+	color: #282a33;
+}
+
+.mailchimp .error {
+	color: #f16063;
 }
 
 @media only screen and (max-width: 500px) {

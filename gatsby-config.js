@@ -64,6 +64,12 @@ module.exports = {
 				icon: `src/images/icon.png`, // This path is relative to the root of the site.
 			},
 		},
-		`gatsby-plugin-offline`
+		`gatsby-plugin-offline`,
+		{
+			resolve: 'gatsby-plugin-mailchimp',
+			options: {
+				endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=05488767b8396fd6572fd2c88&amp;id=a4f0618a3f',
+			},
+		},
 	]
 }
