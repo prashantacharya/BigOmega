@@ -40,7 +40,7 @@ const Mailchimp = () => {
 			}
 			{
 				status && (
-					<h3>Thank you for subscribing</h3>
+					<h3>Thank you for subscribing. Please check your email and confirm your subscription.</h3>
 				)
 			}
 			{
