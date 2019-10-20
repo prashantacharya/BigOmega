@@ -32,7 +32,7 @@ Coming back to our react app, the folder structure now must look like this
 So now, create an `.env` file on the root of your project.
 `create-react-app` comes with all the necessary configurations to use environment variables in our applications so there's no setup required.
 
-Open the `.env` file and create an environment variable. The environment variable must be prefixed with `REACT_APP` so any variable you name must be like `REACT_APP_MY_KEY`.
+Open the `.env` file and create an environment variable. The environment variable must be prefixed with `REACT_APP` so any variable you name must be like `REACT_APP_MY_KEY`. It is something enforced by create-react-app. You can read the docs <a href='https://create-react-app.dev/docs/adding-custom-environment-variables/' target='blank'> here</a>.
 
 Open `.env` variable and add the following key. It means nothing and just for the test purpose.
 
@@ -102,5 +102,7 @@ function App() {
 ```
 
 Check the above example and explore the code yourself at <a href='https://codesandbox.io/s/hiding-env-g8r44' target='blank'>this link</a>.
+
+You can optionally create a context or use redux to store these keys on a global state so that you do not have to check for environment and set URL on every file you encounter.
 
 Thanks for reading.
