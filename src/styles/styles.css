@@ -149,7 +149,6 @@ footer {
 .blog a:hover {
 	color: #f16063;
 	border-bottom: 1px solid #f16063;
-	text-underline-position: bottom;
 }
 
 .blog-content {
