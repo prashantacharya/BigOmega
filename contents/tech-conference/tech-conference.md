@@ -5,11 +5,9 @@ date: '2019-10-23'
 keywords: "tech conference, conference, presentation, MLH, Azure"
 ---
 
-On October 19th 2019, I was supposed to give a presentation or a conference talk on **Building and Deploying Node.JS apps with Azure** but things took a turn and I had to slightly modify the scope of my session and do something little different or less than what I was supposed to do. There were few reasons and I will come to that.
+On October 19th 2019, I was supposed to give a presentation or a conference talk on **Building and Deploying Node.JS apps with Azure** but things took a turn and I had to slightly modify the scope of my session and do something little different or less than what I was supposed to do. The reason why I had to do was lack of internet connectivity, the time frame of the session and whether students/participants would grasp all the information we provide or not because it was already too much till that point. 
 
 ![Presentation](images/presentation.JPG)
-
-Yeah that's me in the picture 👆
 
 ## About the Conference
 
@@ -18,10 +16,10 @@ The event we organized was called **STUDENT DEVELOPER DAY** and 4 of us were org
 
 ## What does it feel like to organize and speak at a conference?
 
-I would not like to give myself much credit in the organizing part of the event as I did not do much on it except designing some banners and the posts for social media. All credit goes to my brothers Diwash and Binod for working so hard in the organizing part of the event.
+I would not like to give myself much credit in the organizing part of the event as I did not do much on it, except designing some banners and the posts for social media. All credit goes to my brothers Diwash and Binod for working so hard in the organizing part of the event.
 
 
-Whenever I try to do something I always think about the impact it might have. In terms of that impact, this event was a huge success because I was able to teach what I know to about 30-40 people and also, the feedback I got on the days that followed the event, I am overwhelmed by the appreciation by the people.
+Whenever I try to do something, I always think about the impact it might have. In terms of impact, this event was a huge success because I was able to teach what I know to about 30-40 people and also, due to the feedback I got on the days that followed the event, I am overwhelmed by the appreciation by the people.
 
 We were really able to give something to the tech community of Nepal from the session and we are going to organize more events in the future. That's a promise.
 
@@ -30,7 +28,7 @@ We were really able to give something to the tech community of Nepal from the se
 
 ## The Networking Part
 
-Whenever you organize or attend events, you're likely to meet new people. This event was not an exception. I got to meet with someone who has been programming since 1983, 	long before I was even born and also someone who wants to improve the quality of software engineers in Nepal. Events also let you market yourself and your skills in the community. I guess it will also get me some more reach in the blogs I write. 😉😉
+Whenever you organize or attend events, you're likely to meet new people. This event was not an exception. I got to meet with someone who has been programming since 1983, which is long before I was even born and also someone who wants to improve the quality of software engineers in Nepal. Events also let you market yourself and your skills in the community. I guess it will also get me some more reach in the blogs I write. 😉😉
 
 ![Token Of Love](images/award.JPG)
 
