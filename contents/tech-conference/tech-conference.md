@@ -38,7 +38,7 @@ Whenever you organize or attend events, you're likely to meet new people. This e
 ## Learning from the failures
 Whenever you organize events, you want it to go smoothly and be right in all the aspects but the possibility of the event going right as you expect is thin. You might ask why? Here are the reasons why.
 
-- **Nepali Time** is the synonym for **unpuntuality** in Nepal.
+- **Nepali Time** is the synonym for **unpunctuality** in Nepal.
 - People might not care about events. I invited more than 15 people I know in the events but only 3 of them were present.
 - Getting the target audience is also tough most of the times because the content might be too basic for a group of audience and too tough for the other. 
 - The internet in Nepali colleges are so bad. I don't understand the purpose of internet service in colleges because it's so difficult to get connectivity.
