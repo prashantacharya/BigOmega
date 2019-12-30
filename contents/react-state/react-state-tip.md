@@ -84,7 +84,6 @@ So you could do something like this
 ```js
 const [items, setItem] = useState([])
 ```
-
 Just a minor change from `''` to `[]` would save me hours of random google searches and scratching my head.
 
 I hope you like the blog. If it was worth your time then please consider subscribing to not miss future updates.
