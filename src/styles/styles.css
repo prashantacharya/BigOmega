@@ -1,249 +1,268 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto+Slab&display=swap");
 
-@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
+@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a:focus {
-	outline: none;
+  outline: none;
 }
 
 html body {
-	background: #282a33;
-	font-family: 'Red Hat Display', sans-serif;
-	color: #e4e3e3;
-	line-height: 1.5;
+  background: #282a33;
+  font-family: "Red Hat Display", sans-serif;
+  color: #e4e3e3;
+  line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Slab', sans-serif;
-	font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
 }
 
 hr {
-	margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 blockquote {
-	padding: 10px 20px;
-	border-left: 2px solid #f16063;
-	margin: 30px 0px;
-	background: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-left: 2px solid #f16063;
+  margin: 30px 0px;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .container {
-	margin: 0 auto;
-	max-width: 50rem;
-	padding: 2.625rem 1.3125rem;
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 2.625rem 1.3125rem;
 }
 
 .logo {
-	height: 60px;
+  height: 60px;
 }
 
 .author-info {
-	display: flex;
-	margin: 2rem 0 1rem 0;
+  display: flex;
+  margin: 2rem 0 1rem 0;
 }
 
 .author-info .profile-pic {
-	height: 70px;
-	border-radius: 50%;
-	border: 3px solid #f16063;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #f16063;
 }
 
 .author-info .text {
-	margin: 0 1rem;
-	font-size: 1.3rem;
-	color: #cccccc;
+  margin: 0 1rem;
+  font-size: 1.3rem;
+  color: #cccccc;
 }
 
 .author-info ul {
-	list-style-type: none;
-	display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 .author-info ul li {
-	margin: 10px;
+  margin: 10px;
 }
 
 .author-info a {
-	color: #f18587;
+  color: #f18587;
 }
 
 .author-info a:hover {
-	color: #f16063;
+  color: #f16063;
 }
 
 .list-blogs {
-	margin: 3rem auto;
-	border-radius: 10px;
-	padding: 1rem;
-	border-bottom: 1px solid #f16063;
+  margin: 3rem auto;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid #f16063;
 }
 
 .list-blogs a {
-	color: #ececec;
-	text-decoration: none;
+  color: #ececec;
+  text-decoration: none;
 }
 
 .list-blogs h2 {
-	font-size: 1.3rem;
-	line-height: 1.3;
-	margin: 10px 0px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin: 10px 0px;
 }
 
-.list-blogs h2:hover, .list-blogs h2:focus {
-	color: #f18587;
+.list-blogs h2:hover,
+.list-blogs h2:focus {
+  color: #f18587;
 }
 
 .list-blogs p {
-	margin-top: 5px;
-	line-height: 1.2;
-	color: #eeeeee;
-	text-shadow: 1px 1px #000000;
-	font-size: 0.9rem;
+  margin-top: 5px;
+  line-height: 1.2;
+  color: #eeeeee;
+  text-shadow: 1px 1px #000000;
+  font-size: 0.9rem;
 }
 
 .list-blogs .subtitle {
-	margin-bottom: 3px;
-	font-size: 1.1rem;
-	margin-bottom: 10px;
+  margin-bottom: 3px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
 }
 
 footer {
-	border-top: 1px solid #f16063;
-	border-radius: 10px;
-	color: #eeeeee;
-	padding: 10px 15px;
+  border-top: 1px solid #f16063;
+  border-radius: 10px;
+  color: #eeeeee;
+  padding: 10px 15px;
 }
 
 .blog {
-	margin: 2rem 0;
+  margin: 2rem 0;
 }
 
-.blog h1, h2, h3, h4, h5, h6 {
-	margin: 20px 0px;
+.blog h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 20px 0px;
 }
 
 .blog h1 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .blog h2 {
-	font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .blog h3 {
-	font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .blog a {
-	color: #f18587;
-	text-decoration: none;
+  color: #f18587;
+  text-decoration: none;
 }
 
 .blog a:hover {
-	color: #f16063;
-	border-bottom: 1px solid #f16063;
+  color: #f16063;
+  border-bottom: 1px solid #f16063;
 }
 
 .blog-content {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .blog p {
-	margin: 15px 0px;
-	font-size: 1.2rem;
-	line-height: 30px;
+  margin: 15px 0px;
+  font-size: 1.2rem;
+  line-height: 30px;
 }
 
 .blog img {
-	margin: 20px auto;
-	display: block;
-	width: 100%;
+  margin: 20px auto;
+  display: block;
+  width: 100%;
 }
 
 .mailchimp {
-	margin: 30px 0px;
-	padding: 20px;
-	border-top: 1px solid #f16063;
-	border-bottom: 1px solid #f16063;
-	border-radius: 15px;
+  margin: 30px 0px;
+  padding: 20px;
+  border-top: 1px solid #f16063;
+  border-bottom: 1px solid #f16063;
+  border-radius: 15px;
 }
 
 .mailchimp form {
-	display: flex;
-	flex-direction: row;
-	margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
 }
 
-
 .mailchimp input {
-	margin-right: 2px;
-	flex-grow: 8;
-	padding: 10px 5px;
-	background: none;
-	border: 1px solid #f16063;
-	color: #e4e3e3;
-	border-radius: 15px;
+  margin-right: 2px;
+  flex-grow: 8;
+  padding: 10px 5px;
+  background: none;
+  border: 1px solid #f16063;
+  color: #e4e3e3;
+  border-radius: 15px;
 }
 
 .mailchimp input:focus {
-	outline: none;
+  outline: none;
 }
 
 .mailchimp button {
-	flex-grow: 1;
-	margin-left: 5px;
-	border: 1px solid #f16063;
-	border-radius: 15px;
-	background: transparent;
-	color: #f16063;
-	font-size: 15px;
-	letter-spacing: 1px;
-	font-family: 'Red Hat Display', sans-serif;
-	font-weight: 500;
+  flex-grow: 1;
+  margin-left: 5px;
+  border: 1px solid #f16063;
+  border-radius: 15px;
+  background: transparent;
+  color: #f16063;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
 }
 
-.mailchimp button:hover, .mailchimp button:focus {
-	outline: none;
-	cursor: pointer;
-	background: #f16063;
-	color: #282a33;
+.mailchimp button:hover,
+.mailchimp button:focus {
+  outline: none;
+  cursor: pointer;
+  background: #f16063;
+  color: #282a33;
 }
 
 .mailchimp .error {
-	color: #f16063;
+  color: #f16063;
 }
 
 @media only screen and (max-width: 500px) {
-	h1, .blog h1 {
-		font-size: 1.7rem;
-	}
-	.text p {
-		font-size: 1.1rem;
-	}
-	h3, .blog h3 {
-		font-size: 1.3rem;
-	}
-	.list-blogs .subtitle {
-		font-size: 1rem;
-	}
-	.blog h1, h2, h3, h4, h5, h6 {
-		margin: 10px 0px;
-	}
-	.list-blogs h2 {
-		font-size: 1.2rem;
-	}
-	.blog p {
-		margin: 15px 0px;
-		font-size: 1rem;
-	}
-	.blog ul, .blog ol {
-		margin-bottom: 15px 0px;
-	}
+  h1,
+  .blog h1 {
+    font-size: 1.7rem;
+  }
+  .text p {
+    font-size: 1.1rem;
+  }
+  h3,
+  .blog h3 {
+    font-size: 1.3rem;
+  }
+  .list-blogs .subtitle {
+    font-size: 1rem;
+  }
+  .blog h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 10px 0px;
+  }
+  .list-blogs h2 {
+    font-size: 1.2rem;
+  }
+  .blog p {
+    margin: 15px 0px;
+    font-size: 1rem;
+  }
+  .blog ul,
+  .blog ol {
+    margin-bottom: 15px 0px;
+  }
 }

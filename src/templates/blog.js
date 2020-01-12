@@ -29,7 +29,7 @@ const Blog = (props) => {
 			<article className="blog">
 				<h1>{props.data.markdownRemark.frontmatter.title}</h1>
 				<p>
-					<i className="far fa-calendar-alt"></i> {props.data.markdownRemark.frontmatter.date} |&nbsp;
+						<i className="far fa-calendar-alt"></i> {props.data.markdownRemark.frontmatter.date} |&nbsp;
 						<i className="fas fa-stopwatch"></i> {props.data.markdownRemark.timeToRead}min read
 					</p>
 				<div className="blog-content" dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
