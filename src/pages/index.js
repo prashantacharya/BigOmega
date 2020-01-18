@@ -24,21 +24,18 @@ const IndexPage = () => {
     }
   `)
 
-  const styles = ["article-red"]
-
   return (
     <Layout>
       <Head title="Home" />
       {data.allMarkdownRemark.edges.map(edge => {
-        let styleIndex = data.allMarkdownRemark.edges.indexOf(edge)
-        let style = styles[styleIndex % styles.length]
+        let postIndex = data.allMarkdownRemark.edges.indexOf(edge)
 
         return (
-          <article className={`list-blogs ${style}`}>
+          <article key={postIndex} className={`list-blogs`}>
             <p>
               <i className="far fa-calendar-alt"></i>&nbsp;
               {edge.node.frontmatter.date} | &nbsp;
-              <i class="fas fa-stopwatch"></i>&nbsp;
+              <i className="fas fa-stopwatch"></i>&nbsp;
               {edge.node.timeToRead}min read
             </p>
             <Link to={`/${edge.node.fields.slug}`}>
