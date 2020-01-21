@@ -35,19 +35,20 @@ const makeRequest = async () => {
 		const response = await axios.get("https://somedummyapi.com")
 		return response
 	} catch (error) {
-		// highlight-start
 		if (error.request) {
-			// Maybe we don't have internet connection or our server has stopped
+			// Maybe we don't have internet connection
+			// or our server has stopped
 			console.log("Could not connect to the server")
 		} else if (error.response) {
 			// Server received a request
-			// and responded with a status code that falls out of the range 2xx.
+			// and responded with a status code
+			// that falls out of the range 2xx.
 			console.log(error.response.data)
 		} else {
-			// something happened while making the request that we're not really aware of
+			// something happened while making the request
+			// that we're not really aware of
 			console.log(error)
 		}
-		// highlight-end
 	}
 }
 ```
