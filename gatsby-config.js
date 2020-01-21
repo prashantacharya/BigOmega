@@ -1,16 +1,16 @@
 module.exports = {
 	plugins: [
 		{
-			resolve: 'gatsby-source-filesystem',
+			resolve: "gatsby-source-filesystem",
 			options: {
-				name: 'blog-posts',
-				path: `${__dirname}/contents`
-			}
+				name: "blog-posts",
+				path: `${__dirname}/contents`,
+			},
 		},
 		{
-			resolve: 'gatsby-plugin-favicon',
+			resolve: "gatsby-plugin-favicon",
 			options: {
-				logo: './src/static/favicon.png',
+				logo: "./src/static/favicon.png",
 				icons: {
 					android: true,
 					appleIcon: true,
@@ -19,30 +19,29 @@ module.exports = {
 					favicons: true,
 					firefox: true,
 					yandex: false,
-					windows: false
-				}
-			}
+					windows: false,
+				},
+			},
 		},
-		'gatsby-plugin-react-helmet',
-		'gatsby-plugin-sharp',
+		"gatsby-plugin-react-helmet",
+		"gatsby-plugin-sharp",
 		{
-			resolve: 'gatsby-transformer-remark',
+			resolve: "gatsby-transformer-remark",
 			options: {
 				plugins: [
-					'gatsby-remark-relative-images',
+					"gatsby-remark-relative-images",
 					{
-						resolve: 'gatsby-remark-images',
+						resolve: "gatsby-remark-images",
 						options: {
 							maxWidth: 600,
-							linkImagesToOriginal: false
-						}
+							linkImagesToOriginal: false,
+						},
 					},
 					{
-						resolve: 'gatsby-remark-prismjs',
-
-					}
-				]
-			}
+						resolve: "gatsby-remark-prismjs",
+					},
+				],
+			},
 		},
 		{
 			resolve: `gatsby-plugin-google-analytics`,
@@ -66,10 +65,11 @@ module.exports = {
 		},
 		`gatsby-plugin-offline`,
 		{
-			resolve: 'gatsby-plugin-mailchimp',
+			resolve: "gatsby-plugin-mailchimp",
 			options: {
-				endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=a998ce96ac3b6143cbb6dc975&amp;id=7d930559c5',
+				endpoint:
+					"https://gmail.us20.list-manage.com/subscribe/post?u=a998ce96ac3b6143cbb6dc975&amp;id=7d930559c5",
 			},
 		},
-	]
+	],
 }

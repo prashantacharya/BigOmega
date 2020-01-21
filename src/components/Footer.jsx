@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react"
 
 const Footer = () => {
+	const year = new Date()
 	return (
-		<footer>
-			Copyright &copy; 2019, Prashant Acharya 
-		</footer>
+		<footer>Copyright &copy; {year.getFullYear()}, Prashant Acharya</footer>
 	)
 }
 
