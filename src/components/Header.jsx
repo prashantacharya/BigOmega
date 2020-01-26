@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import myImage from "../images/myImage.jpg"
-import logo from "../images/logo.png"
+import React from 'react'
+import { Link } from 'gatsby'
+import myImage from '../images/myImage.jpg'
+import logo from '../images/logo.png'
 
 const Header = () => {
 	return (
