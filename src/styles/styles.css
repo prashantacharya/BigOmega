@@ -1,9 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap'); */
 /* @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto+Slab&display=swap"); */
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Fira+Code&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
 
-@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
+@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
 
 * {
 	margin: 0;
@@ -16,7 +16,7 @@ a:focus {
 
 html body {
 	background: #282a33;
-	font-family: "Titillium Web", sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	color: #e4e3e3;
 	line-height: 35px;
 	letter-spacing: 0.5px;
@@ -29,12 +29,12 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Titillium Web", sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-weight: 400;
 }
 
 hr {
-	margin: 10px 0px;
+	margin: 40px 0px;
 }
 
 blockquote {
@@ -215,7 +215,7 @@ h6 {
 	border: 1px solid #f16063;
 	color: #e4e3e3;
 	border-radius: 15px;
-	font-family: "Titillium Web", sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	letter-spacing: 1px;
 	font-size: 16px;
 }
@@ -233,7 +233,7 @@ h6 {
 	color: #f16063;
 	font-size: 18px;
 	letter-spacing: 1px;
-	font-family: "Titillium Web", sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-weight: 500;
 }
 
