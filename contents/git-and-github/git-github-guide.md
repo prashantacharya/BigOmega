@@ -15,8 +15,6 @@ Git and GitHub are important for software engineers/developers. To understand Gi
 
 ### What is GitHub?
 
-## GitHub
-
 **GitHub** is a tool that works well with git. With GitHub, we can collaborate in teams in a project. Simply, GitHub is a website or a cloud platform that helps us to host Git repositories.
 
 ---
