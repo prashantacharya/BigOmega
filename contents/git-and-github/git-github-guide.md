@@ -155,4 +155,4 @@ git reset --hard e2123ndsadsadzoqm23
 
 ## Conclusion
 
-Thanks for reading this content. I want to make it a series and in the next one, I'll be talking about collaboration with GitHub among teams. I additionally will also be covering about deploying our static websites using GitHub and netlify. If you don't want to miss those contents, subscribe to my newsletter by entering your email below.
+Thanks for reading this guide. I want to make it a series and in the next one, I'll be talking about collaboration with GitHub among teams. I additionally will also be covering about deploying our static websites using GitHub and netlify. If you don't want to miss those contents, subscribe to my newsletter by entering your email below.
