@@ -41,7 +41,7 @@ Simply, the breacher might perform a bruteforce attack or a dictionary attack on
 
 ## How to do it right?
 
-As we have discarded the possibilities of how not to do it, let's talk about how we could store passwords well.
+As we have discarded the possibilities of how not to store passwords on the database, let's talk about how we could store passwords well.
 
 The approach that we have to take while doing so is **hashing and salting**. In this mechanism, a salt is simply a string of random characters that is added to the password everytime we store a new password on the database. If we do this, two different users with the same password will have a different hash.
 
@@ -81,7 +81,7 @@ const hashPasswordAsync = async password => {
 hashPasswordAsync('123456')
 ```
 
-I ran the application multiple times and every single time I was able to get a different for the same password `123456`.
+I ran the application multiple times and every single time, I was able to get a different hash for the same password `123456`.
 
 Here are some of the outcomes.
 
