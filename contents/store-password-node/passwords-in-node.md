@@ -5,7 +5,7 @@ date: '2020-01-29'
 keywords: 'bcrypt, hashing, passwords, security, node.js, backend, database '
 ---
 
-Storing password is a challenge while designing applications. We have to do it well if we don't want to compromise the security of our applications and users. I would like to briefly explain the approaches we might consider while designing an authentication system that stores users' passwords but first, it's also really important to talk about the approaches we should never take.
+Storing a password is a challenge while designing applications. We have to do it well if we don't want to compromise the security of our applications and users. I would like to briefly explain the approaches we might consider while designing an authentication system that stores users' passwords but first, it's also really important to talk about the approaches we should never take.
 
 This blog is inspired from <a href='https://www.youtube.com/watch?v=8ZtInClXe1Q' target='_blank'>Tom Scott's video about storing passwords on Computerphile channel on YouTube</a> and also my knowledge of Cryptography.
 
@@ -13,27 +13,27 @@ This blog is inspired from <a href='https://www.youtube.com/watch?v=8ZtInClXe1Q'
 
 ### Plain Text
 
-I don't think I have to mention this but **plain text** is a format we should never consider while storing passwords. Plain text simply is the password that the user has entered while signing up for the service.
+I don't think I have to mention this but **plain text** is a format we should never consider while storing passwords. The plain text simply is the password that the user has entered while signing up for the service.
 
 For Example: If a user enters `123456` as a password, we simply store `123456` on the database.
 
-So simply if the system gets compromised/hacked, we'll be showing the actual password of the user to the hacker. The main problem with this is, most of the people use same email and password combination while signing up for multiple services. So the breacher can have access to all the services.
+So simply if the system gets compromised/hacked, we'll be showing the actual password of the user to the hacker. The main problem with this is, most of the people use the same email and password combination while signing up for multiple services. So the breacher can have access to all the services.
 
 ### Encryption
 
-Encryption means converting a plain text (normal text) into a cipher text (encrpyted text) with the help of some key.
+Encryption means converting a plain text (normal text) into a cipher text (encrypted text) with the help of some key.
 
 For Example: We might have an algorithm that maps letters of the alphabet with the letters that are shifted 3 positions. So, if plain text is **abc** then the cipher text would be **def**.
 
-Technically, we're adding a layer of security by simply not exposing the password but there's a problem with this approach. If the breacher gets the key then he has the ability to decrypt (obtain original message) from the encrypted password easily. It's easy to do so because the encryption algorithm is known to us and the only thing we don't know is the key. So hypothetically, if the hacker has acquired the key then all the encrypted passwords in the database get compromised.
+Technically, we're adding a layer of security by simply not exposing the password but there's a problem with this approach. If the breacher gets the key then he can decrypt (obtain original message) from the encrypted password easily. It's easy to do so because the encryption algorithm is known to us and the only thing we don't know is the key. So hypothetically, if the hacker has acquired the key then all the encrypted passwords in the database get compromised.
 
 ![Encryption Decryption](./images/encryption-decryption.png)
 
 ### Cryptographic Hash Function
 
-A cryptographic hash function is similar to encryption algorithm. The only difference is, if the a message is processed with the cryptographic hash function then it is irrevertible (i.e. we'll not get back the original password/message from the hash). A cryptographic hash function always generates output of fixed length and even a slight variation of plain text will result in a totally different hash.
+A cryptographic hash function is similar to encryption algorithm. The only difference is, if the message is processed with the cryptographic hash function then it is irreversible (i.e. we'll not get back the original password/message from the hash). A cryptographic hash function always generates an output of fixed length and even a slight variation of plain text will result in a totally different hash.
 
-This is slightly an improvisation over encryption but still it possesses threats. The main problem with this approach is, two passwords get converted to the same hash.
+This is slightly an improvisation over encryption but still, it possesses threats. The main problem with this approach is, two passwords get converted to the same hash.
 
 Simply, the breacher might perform a bruteforce attack or a dictionary attack on the system to guess the password. He might take the list guessed passwords, hash it with the hash function and if any of the hash matches the hash on the database then he has successfully decrypted the password from the hash.
 
@@ -43,9 +43,9 @@ Simply, the breacher might perform a bruteforce attack or a dictionary attack on
 
 As we have discarded the possibilities of how not to store passwords on the database, let's talk about how we could store passwords well.
 
-The approach that we have to take while doing so is **hashing and salting**. In this mechanism, a salt is simply a string of random characters that is added to the password everytime we store a new password on the database. If we do this, two different users with the same password will have a different hash.
+The approach that we have to take while doing so is **hashing and salting**. In this mechanism, a salt is simply a string of random characters that gets added to the password every time we store a new one on the database. If we do this, two different users with the same password will have a different hash.
 
-The salt is **generated randomly** everytime a new password is stored on the database. The salt is long and random string which increases the cost of doing a bruteforce attack.
+The salt is **generated randomly** every time a new password is stored on the database. The salt is a long and random string which increases the cost of doing a bruteforce attack.
 
 **Hashing Only**
 
@@ -55,17 +55,17 @@ The salt is **generated randomly** everytime a new password is stored on the dat
 
     hash(salt + password)
 
-The salt is included in the password, therefore we don't have to saperately store the salt.
+The salt is included in the password, therefore we don't have to separately store the salt.
 
 ## Example of using salting and hashing on Node.JS
 
-In order to do this, we need a package called `bcrypt` which we can download from the NPM registry.
+To do this, we need a package called `bcrypt` which we can download from the NPM registry.
 
 ```shell
 npm i bcrypt
 ```
 
-To hash the password, we need to generate a salt. After generation of salt, we hash the password along with the randomly generated salt. All this is handled by the bcrypt package so we don't have to think much about it.
+To hash the password, we need to generate a salt. After the generation of salt, we hash the password along with the randomly generated salt. All this is handled by the bcrypt package so we don't have to think much about it.
 
 ```js
 const hashPasswordAsync = async password => {
@@ -93,9 +93,9 @@ $2b$10$f9AjCHiiGkgamZ81Tzgu6OZcq6h2sNwTrGZW2DrgpO//BvDBvgMn.
 
 ## Some tips on creating passwords for normal user
 
-As a user, your instinct will be to store a password that is common for every platforms because you're likely to forget your password if you use a different password for every different platform. This is not what you should be doing and I highly recommend you to use a password manager in this case.
+As a user, your instinct will be to store a password that is common for every platform because you're likely to forget your password if you use a different password for every different platform. This is not what you should be doing and I highly recommend you to use a password manager in this case.
 
-Also, do not create a password yourself. Let the password manager generate a random password and store it for you. If you do so, you only have to remember a strong master password that unlocks the password manager which in return gives you the access to all the passwords you have stored on the password manager.
+Also, do not create a password yourself. Let the password manager generate a random password and store it for you. If you do so, you only have to remember a strong master password that unlocks the password manager which in return gives you the access to every passwords you have stored on the password manager.
 
 ## Conclusion
 
