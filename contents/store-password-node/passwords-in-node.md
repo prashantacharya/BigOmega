@@ -95,7 +95,7 @@ $2b$10$f9AjCHiiGkgamZ81Tzgu6OZcq6h2sNwTrGZW2DrgpO//BvDBvgMn.
 
 As a user, your instinct will be to store a password that is common for every platform because you're likely to forget your password if you use a different password for every different platform. This is not what you should be doing and I highly recommend you to use a password manager in this case.
 
-Also, do not create a password yourself. Let the password manager generate a random password and store it for you. If you do so, you only have to remember a strong master password that unlocks the password manager which in return gives you the access to every passwords you have stored on the password manager.
+Also, do not create a password yourself. Let the password manager generate a random password and store it for you. If you do so, you only have to remember a strong master password that unlocks the password manager which in return gives you access to every password you have stored on the password manager.
 
 ## Conclusion
 
