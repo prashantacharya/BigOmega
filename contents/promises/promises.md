@@ -1,6 +1,6 @@
 ---
 title: 'Promises in JavaScript'
-subtitle: 'Promises is an awesome feature that exists on JavaScript. This blog covers how promises can be implemented on our applications'
+subtitle: 'Promise is an awesome feature that exists on JavaScript. This blog covers how promises can be implemented on our applications'
 date: '2020-02-11'
 keywords: 'asynchronous, async-await, promises, javascript, node, react, fetch'
 ---
