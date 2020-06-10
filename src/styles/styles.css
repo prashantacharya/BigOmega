@@ -54,6 +54,22 @@ blockquote {
 	height: 60px;
 }
 
+#logo a {
+	position: relative;
+	display: block;
+	height: 60px;
+}
+
+#logo a span {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #282a33 url(../images/bigomega.png) no-repeat left top;
+	z-index: 100; /* Places <span> on top of <a> text */
+}
+
 .author-info {
 	display: flex;
 	margin: 2rem 0 1rem 0;
