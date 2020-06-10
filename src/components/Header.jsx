@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import myImage from '../images/myImage.jpg'
-import logo from '../images/logo.png'
 
 const Header = () => {
 	return (
 		<>
 			<header>
-				<Link to="/">
-					<img src={logo} alt="Big Omega" className="logo" />
-				</Link>
+				<h1 id="logo">
+					<Link to="/">
+						Big Omega<span></span>
+					</Link>
+				</h1>
 			</header>
 			<aside className="author-info">
 				<div className="img">
