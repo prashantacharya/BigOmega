@@ -33,7 +33,7 @@ const Header = () => {
 							</a>
 						</li>
 						<li>
-							<a href="https://github.com/Prashant-Acharya" target="blank">
+							<a href="https://github.com/prashantacharya" target="blank">
 								<i className="fab fa-github"></i>
 							</a>
 						</li>
