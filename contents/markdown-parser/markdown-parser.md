@@ -7,6 +7,8 @@ keywords: 'Regular Expression, JavaScript, Markdown, Compiler, Parser, RegEx'
 
 Markdown is a markup language like HTML. It is quite popular among developers to write blogs, readme files, documentation and blogs. Some of the popular websites that support rich text like Reddit, GitHub, Notion etc allow you to write markdown. I use markdown to convert my blog from a markdown file to HTML web pages. Markdown is simple yet very powerful. In this blog, I will be writing about how to build a simple markdown parser to convert md to HTML with JavaScript using Regular Expressions.
 
+![Markdown parser](markdown.png)
+
 ## How does a markdown text look like
 
 If you open a markdown file, you'll see the following syntax.
