@@ -1,34 +1,14 @@
 {
-  "name": "bigomega",
-  "private": true,
-  "description": "This is a personal blog website by Prashant Acharya",
-  "version": "0.1.0",
+  "name": "BigOmega",
+  "version": "1.0.0",
+  "description": "A portfolio and a blog website",
+  "main": "index.js",
+  "repository": "git@github.com:prashantacharya/BigOmega.git",
+  "author": "Prashant <prashantacharya@lftechnology.com>",
   "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve"
-  },
   "dependencies": {
-    "env-cmd": "^8.0.2",
-    "gatsby": "^2.27.0",
-    "gatsby-plugin-favicon": "^3.1.6",
-    "gatsby-plugin-google-analytics": "^2.1.33",
-    "gatsby-plugin-mailchimp": "^5.1.2",
-    "gatsby-plugin-manifest": "^2.4.23",
-    "gatsby-plugin-offline": "^2.2.10",
-    "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.6.27",
-    "gatsby-remark-images": "^3.1.42",
-    "gatsby-remark-prismjs": "^3.3.30",
-    "gatsby-remark-relative-images": "^0.2.3",
-    "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-transformer-remark": "^2.6.48",
-    "prismjs": "^1.19.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "gatsby": "^3.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
