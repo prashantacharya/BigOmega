@@ -1,0 +1,21 @@
+@use 'sass:map'
+
+.layout
+  .sidebar
+    position: fixed
+    bottom: 0
+    width: 100vw
+    height: 7rem
+
+    @media screen and (min-width: map.get($breakpoints, "md"))
+      width: 30rem
+      height: 100vh
+
+  .main-content
+    margin: 0
+    height: 300vh
+
+    @media screen and (min-width: map.get($breakpoints, "md"))
+      margin-left: 30rem
+
+

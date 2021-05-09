@@ -1,0 +1,22 @@
+@use 'sass:map'
+
+html
+  font-size: 9px
+
+  @media screen and (min-width: map.get($breakpoints, 'sm'))
+    font-size: 62.5%
+
+h1
+  font-size: 3.6rem
+
+h2
+  font-size: 2.4rem
+
+h3
+  font-size: 2rem
+
+body
+  font-size: 1.6rem
+
+.sidebar a 
+  text-decoration: none

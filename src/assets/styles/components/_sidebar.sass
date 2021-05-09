@@ -1,0 +1,64 @@
+@use 'sass:map'
+
+.sidebar
+  text-align: center
+  display: flex
+
+  @media screen and (min-width: map.get($breakpoints, 'md'))
+    flex-direction: column
+    align-items: center
+
+  img
+    display: none
+    margin: 5rem 0
+    width: 15rem
+    border-radius: 50%
+    border: 5px solid map.get($theme, 'primary')
+  
+    @media screen and (min-width: map.get($breakpoints, 'md'))
+      display: inline
+
+  ul
+    flex: 1 1 100%
+    list-style-type: none
+    display: flex
+    align-items: center
+
+    @media screen and (min-width: map.get($breakpoints, 'md'))
+      flex-direction: column
+      align-items: center
+      flex: 0 0 0% 
+      width: 100%
+
+    li
+      flex: 1 1 100%
+
+      @media screen and (min-width: map.get($breakpoints, 'md'))
+        width: 100%
+
+      span
+        display: block
+
+        @media screen and (min-width: map.get($breakpoints, 'md'))
+          display: inline
+
+      a
+        font-size: 1.8rem
+        
+        @media screen and (min-width: map.get($breakpoints, 'md'))
+          padding: 1.5rem
+          display: flex
+          width: 100%
+
+  .nav-icon
+    @media screen and (min-width: map.get($breakpoints, 'md'))
+      margin-right: 2rem
+      width: 4rem
+   
+  .nav-icon
+    @media screen and (min-width: map.get($breakpoints, 'md'))
+    
+    svg
+      width: 2rem
+
+

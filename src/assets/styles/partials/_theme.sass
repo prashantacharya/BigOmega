@@ -1,0 +1,22 @@
+@use "sass:map"
+
+body 
+  font-family: $font
+
+.dark
+  color: map.get($theme, "white")
+
+  .sidebar
+    background: map.get($dark-theme, "primary")
+
+    .active-nav-link
+      background: map.get($dark-theme, "secondary")
+    
+    a
+      color: map.get($theme, "white")
+
+      &:hover, .active-nav-link
+        background: map.get($dark-theme, "secondary")
+
+  .main-content
+    background: map.get($dark-theme, "secondary")
