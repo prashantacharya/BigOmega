@@ -7,7 +7,7 @@ import '../assets/styles/styles.sass';
 function Home() {
 	return (
 		<Layout>
-			<h1>Home Page</h1>
+			<h1>Blogs</h1>
 		</Layout>
 	);
 }
