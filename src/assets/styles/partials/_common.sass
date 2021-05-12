@@ -20,3 +20,14 @@ body
 
 .sidebar a 
   text-decoration: none
+  font-weight: map.get($font-weights, 'medium')
+
+.container
+  margin: 0 auto
+  max-width: 100rem
+  padding: 2rem
+
+  @media screen and (min-width: map.get($breakpoints, 'lg'))
+    padding: 5rem
+
+

@@ -1,3 +1,4 @@
+import Logo from './logo.svg';
 import Prashant from './prashant.png';
 
-export { Prashant };
+export { Logo, Prashant };

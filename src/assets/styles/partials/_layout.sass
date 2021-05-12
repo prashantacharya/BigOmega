@@ -13,9 +13,16 @@
 
   .main-content
     margin: 0
-    height: 300vh
+    min-height: 100vh
+    width: 100vw
 
     @media screen and (min-width: map.get($breakpoints, "md"))
       margin-left: 30rem
+      width: auto
 
+  .logo
+    img
+      width: 20rem
 
+      @media screen and (min-width: map.get($breakpoints, "md"))
+        width: 30rem
